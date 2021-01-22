@@ -31,7 +31,17 @@ Then Move the app.asar file from your desktop to your documents folder in file e
 Open 7zip and then open the documents folder then the app.asar file we dragged there. 7z should open the file if not try this. Open the windows disk drive once more and enter the following directiory: \Program Files\7z\Formats\ And replace the 64.dll file with 32.dll file or the 64.dllfile to the 32.dll then reopen the dircetory agin in 7zip.
 
 
-After you open the app.asar file in 7z enter the following directory: /app/renderer/flipper-hub /firmware/ That .bin file with a bunch of numbers in front of it
+After you open the app.asar file in 7zip enter the following directory: /app/renderer/flipper-hub /firmware/ That .bin file with a bunch of numbers in front of it is the Hubs firmware MINIMIZE THE 7ZIP WINDOW. Open the firmware.zip in file explorer If you want to downgrade the spikes firmware open the SPIKE folder and if Mindstorms open the Mindstorms folder. Reopen The 7zip windows go back to file explorer and REPLACE the desired .bin file form the Firmware.zip file into 7zip.
+
+You can now exit out of 7zip then open the windows disk drive again then follow this directory for the last time: \Program Files\SPIKE\Resouces\ then replace the app.asar file with the one on your desktop, then close out of file explorer.
+
+
+Open The lego spike prime app and connect your hub (for vbox users find out how to use usb on virtual box) then after you connect your hub you should see a message that says "Your Hub Os Needs To Be Updated" Press update now and Volla you have succecfully downgraded you hubs firmware.
+
+
+
+
+
 
 
 
